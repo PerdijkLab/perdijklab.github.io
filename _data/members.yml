@@ -1,4 +1,4 @@
-leadership:
+team:
   - name: Olaf Perdijk
     title: Principal Investigator, Assistant Professor, PhD
     focus: Understand how mucosal signals shape systemic immunometabolism to maintain immune homeostasis and prevent disease
@@ -58,16 +58,45 @@ leadership:
     linkedin: https://www.linkedin.com/in/lousanne-de-wit-221944160/ 
     gdpr_consent: true
 
-team:
+alumni:
   - name: Femke van Dongen
-    title: BSc Student in Drug Innovation, Utrecht University
+    title: BSc Student, FA-BA380, Utrecht University
     focus: Mechanismen waarmee via de luchtwegen toegediende bacteriën en bacteriële componenten bescherming bieden tegen astma.
-    time: May 2026 - July 2026
+    time: May 2026 - Jul 2026
     gdpr_consent: false
 
-alumni:
+  - name: Kaya van de Bijl 
+    title: BSc Student, FA-BA380, Utrecht University
+    focus: The Potential Association Between Epigenetics and Differentially Expressed Genes in Airway Epithelial Cells - Influences on the Pathogenesis of Chronic Obstructive Pulmonary Disease.
+    time: Jan 2026 - Mar 2026
+    gdpr_consent: false
+
+  - name: Bente Wijgaarden
+    title: BSc Student, FA-BA380, Utrecht University
+    focus: De invloed van het luchtwegmicrobioom op de respons op inhalatiecorticosteroïden bij astmapatiënten.
+    time: Jan 2026 - Mar 2026
+    gdpr_consent: false
+
   - name: Wouter-Ids Koopmans 
-    title: BSc Student in Drug Innovation, Utrecht University
+    title: BSc Student, FA-BA380, Utrecht University
     focus: Indolen als een mogelijk oplossing voor Alzheimer 
-    time: Mar 2025 - May 2025
+    time: May 2025 - Jul 2025
+    gdpr_consent: false
+
+  - name: Boaz Urlings 
+    title: BSc Student, FA-BA380, Utrecht University
+    focus: How do neurons and immune cells communicatie in the lung?
+    time: May 2025 - Jul 2025
+    gdpr_consent: false
+
+  - name: Akar Alkashaf   
+    title: MSc Student, CPS-380, Utrecht University
+    focus: TBA
+    time: Feb 2025 - Jun 2025
+    gdpr_consent: false
+
+  - name: Margot van den Bogert 
+    title: BSc Student, FA-BA380, Utrecht University
+    focus: Targeting the airway epithelium with microbial metabolites for the prevention of allergic asthma
+    time: Nov 2024 - Feb 2025
     gdpr_consent: false
