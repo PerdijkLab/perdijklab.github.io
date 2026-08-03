@@ -17,11 +17,7 @@ permalink: /publications/
     {% if paper.link and paper.link != "" %}
       <a href="{{ paper.link }}" target="_blank" style="font-size: 0.9em;">[Link]</a>
     {% endif %}
-    <ul style="margin-top: 0.5rem; margin-bottom: 0.5rem; color: #555; font-size: 0.95em;">
-    {% for point in paper.points %}
-      <li>{{ point }}</li>
-    {% endfor %}
-    </ul>
+    <p style="margin-top: 0.5rem; margin-bottom: 0.5rem; color: #555; font-size: 0.95em;">{{ paper.highlight }}</p>
   </div>
 {% endfor %}
 </div>
