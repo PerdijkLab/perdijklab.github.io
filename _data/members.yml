@@ -1,0 +1,73 @@
+leadership:
+  - name: Olaf Perdijk
+    title: Principal Investigator, Assistant Professor, PhD
+    focus: Understand how mucosal signals shape systemic immunometabolism to maintain immune homeostasis and prevent disease
+    email: o.i.perdijk@uu.nl
+    orcid: https://orcid.org/0000-0002-1843-8858
+    gscholar: https://scholar.google.com/citations?user=koZnZGoAAAAJ
+    uu: https://www.uu.nl/staff/OIPerdijk1
+    linkedin: https://www.linkedin.com/in/olaf-perdijk-a996587a/
+    photo: Olaf_Perdijk.jpg
+    gdpr_consent: true
+
+  - name: Yunita Rakhmawati
+    title: PhD student
+    focus: Postbiotic control of metabolic and immune regulation
+    email: y.r.rakhmawati@uu.nl
+    orcid: https://orcid.org/0000-0000-0000-0000
+    uu: https://www.uu.nl/medewerkers/YRRakhmawati
+    photo: Yunita_Rakhmawati.jpg
+    linkedin: https://www.linkedin.com/in/yunitarakhmawati/
+    gdpr_consent: true
+
+  - name: Joyce van de Ven
+    title: PhD student
+    focus: Metabolic rewiring of the airway epithelium
+    email: j.j.i.vandeven@uu.nl 
+    orcid: https://orcid.org/0000-0000-0000-0000
+    uu: https://www.uu.nl/medewerkers/JJIvandeVen
+    photo: Joyce_van_de_Ven.jpg
+    linkedin: https://www.linkedin.com/in/joycevandeven/  
+    gdpr_consent: true
+
+  - name: Maria Eleni Savrogeni
+    title: PhD student (upcoming)
+    focus: Harnessing the gut–brain axis through the ketogenic diet
+    email: memavrogeni@gmail.com
+    orcid: https://orcid.org/0000-0003-1264-0382
+    photo: Maria_Eleni_Mavrogeni.jpeg
+    linkedin: https://www.linkedin.com/in/memav/ 
+    gdpr_consent: true
+
+  - name: Suzan Thijssen
+    title: Research Technician
+    focus: Expertise in flow cytometry, preclinical animal models of respiratory disease, including HDM-induced asthma models, lung function assessment, and ex vivo immune profiling. 
+    email: S.Thijssen@uu.nl 
+    orcid: https://orcid.org/0009-0003-7979-0219
+    uu: https://www.uu.nl/medewerkers/SThijssen  
+    photo: Suzan_Thijssen.jpg
+    linkedin: https://www.linkedin.com/in/suzan-thijssen-b4999a327/ 
+    gdpr_consent: true
+
+  - name: Lousanne de Wit
+    title: Research Technician
+    focus: Expertise in advanced human in vitro models, including organ-on-chip platforms and primary bronchial epithelial systems to study respiratory infections and host–pathogen interactions, including H. influenzae infection models.
+    email: l.h.c.dewit@uu.nl 
+    orcid: https://orcid.org/0000-0003-3606-5095
+    uu: https://www.uu.nl/medewerkers/LHCdeWit
+    linkedin: https://www.linkedin.com/in/lousanne-de-wit-221944160/ 
+    gdpr_consent: true
+
+team:
+  - name: Femke van Dongen
+    title: BSc Student in Drug Innovation, Utrecht University
+    focus: Mechanismen waarmee via de luchtwegen toegediende bacteriën en bacteriële componenten bescherming bieden tegen astma.
+    time: May 2026 - July 2026
+    gdpr_consent: false
+
+alumni:
+  - name: Wouter-Ids Koopmans 
+    title: BSc Student in Drug Innovation, Utrecht University
+    focus: Indolen als een mogelijk oplossing voor Alzheimer 
+    time: Mar 2025 - May 2025
+    gdpr_consent: false

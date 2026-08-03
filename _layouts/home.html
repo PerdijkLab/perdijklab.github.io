@@ -1,0 +1,108 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="container hero-container">
+    <div class="hero-logo-wrapper">
+      <img src="{{ '/assets/images/logo/lab_logo.png' | relative_url }}" alt="Lab Logo" class="hero-logo">
+    </div>
+    <div class="hero-content">
+      <h1>Mucosal Immunometabolism Group</h1>
+      <p class="lead">We bridge Data science with Advanced preclinical models to understand how to prevent disease by targeting the microbiome.</p>
+      <a class="cta" href="{{ '/publications/' | relative_url }}">Explore our work</a>
+    </div>
+  </div>
+</section>
+
+<section class="highlights">
+  <div class="container">
+    <div class="highlight">
+      <h2>Our Mission</h2>
+      <div class="highlight-content">
+        <div class="highlight-text">
+          <p>A growing body of evidence shows that the mucosa and the microbes that inhabit these surfaces are essential for maintaining health.
+            Our group studies how these complex <strong>host–microbiome interactions preserve immune homeostasis</strong> and protect against disease. 
+          </p>
+
+          <p class="mt-1"> 
+            While microbiome- and diet-based interventions show considerable promise, the mechanisms underlying their clinical benefits remain poorly understood. We believe that systemic immunometabolism lies at the heart of this challenge. Signals originating at mucosal surfaces shape the metabolic programmes of immune and stromal cells—not only locally, but also at distal tissues—thereby orchestrating immune homeostasis throughout the body. 
+          </p>
+
+          <p class="mt-1">
+            To unravel these mechanisms, we combine data-driven discovery with hypothesis-driven research to identify the host–microbiome signatures that precede disease onset. By integrating human clinical cohorts, microbiome and multi-omics data with state-of-the-art advanced in vitro models, we move beyond association to uncover causality.
+          </p>
+
+          <p class="mt-1">
+            Our ultimate goal is to understand the mechanisms that maintain immune homeostasis and translate these insights into microbiome- and diet-based strategies to prevent disease onset. 
+          </p>
+        </div>
+        <div class="highlight-image">
+          <img src="{{ '/assets/images/uu_flag.jpg' | relative_url }}" alt="Utrecht University Flag">
+        </div>
+      </div>
+    </div>
+    <div class="highlight">
+      <h2 class="text-right">Research Areas</h2>
+      <div class="highlight-content reverse-mobile">
+        <div class="highlight-image">
+          <img src="{{ '/assets/images/photo/esi.jpg' | relative_url }}" alt="Research Area Illustration">
+        </div>
+        <div class="highlight-text">
+          <ul>
+            <li><strong>Early-life imprinting of the airway epithelium to prevent childhood asthma:</strong>
+              Understanding how early-life microbial signals imprints the immune system to induce long-lived immune homeostasis.</li>
+            <li><strong>Defining and resetting immunometabolism setpoints to prevent obesity-associated inflammation:</strong>
+              Mapping how diet and the gut microbiome set the immunometabolic stage of individuals at risk of metabolic disease in Indonesia.</li>
+            <li><strong>Harnessing the Gut–Brain Axis Through Ketogenic Nutrition:</strong>
+              Understanding how ketogenic diets reshape systemic immunometabolism and cellular energy pathways to modulate disease susceptibility and prevent neurological outcomes, including seizures and Alzheimer’s disease-associated pathology.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="highlight">
+      <h2>Community & Collaboration</h2>
+      <div class="highlight-content">
+        <div class="highlight-text">
+          <p> 
+            Our interdisciplinary research lines are built on strong, established collaborations that bring together complementary expertise, technologies, and perspectives with. Through national and international partnerships, we work closely with clinicians, data scientists, omics specialists, computational biologists, to accelerate and strengthen the impact of our advanced immune in vitro model. By fostering an open and collaborative research environment, we aim to fast-track innovation in disease prevention. 
+          </p>
+        </div>
+        <!-- <div class="highlight-image">
+          <img src="{{ '/assets/images/photo/community.jpg' | relative_url }}" alt="Community">
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="latest-news">
+  <div class="container">
+    <h2>Latest Lab News</h2>
+    <div class="news-cards">
+      {% assign latest_posts = site.posts | slice: 0, 3 %}
+      {% for post in latest_posts %}
+      <article class="news-card">
+        {% if post.thumbnail %}
+        <div class="news-card-image">
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.title }}">
+          </a>
+        </div>
+        {% endif %}
+        <div class="news-card-content">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p class="meta">
+            {{ post.date | date: '%B %d, %Y' }}<br>
+            {{ post.author }}
+          </p>
+          <p>{{ post.excerpt }}</p>
+        </div>
+      </article>
+      {% endfor %}
+      {% if latest_posts == empty %}
+      <p>No announcements yet. Check back soon.</p>
+      {% endif %}
+    </div>
+    <p class="more"><a href="{{ '/news/' | relative_url }}">See all news</a></p>
+  </div>
+</section>

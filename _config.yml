@@ -1,0 +1,29 @@
+title: Perdijk Lab
+description: We bridge Data science with Advanced preclinical models to understand how to prevent disease by targeting the microbiome.
+image: /assets/images/logo/lab_logo.png
+url: https://perdijklab.org
+baseurl: ""
+permalink: /news/:title/
+collections:
+  posts:
+    output: true
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+theme: null
+future: false
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo/lab_logo.png
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
