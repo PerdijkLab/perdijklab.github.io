@@ -3,7 +3,7 @@ layout: page
 title: News
 permalink: /news/
 ---
-![Perdijk Lab News Photo]({{ '/assets/images/ddw.webp' | relative_url }})
+![Perdijk Lab News Photo]({{ '/assets/images/28112025.jpg' | relative_url }})
 {: style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 2rem;" }
 
 {% for post in site.posts %}
