@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-![Perdijk Lab Publications Photo]({{ '/assets/images/ddw.webp' | relative_url }})
+![Perdijk Lab Publications Photo]({{ '/assets/images/BNEC cultures.png' | relative_url }})
 {: .page-banner }
 
 <h2>Highlighted Publications</h2>
