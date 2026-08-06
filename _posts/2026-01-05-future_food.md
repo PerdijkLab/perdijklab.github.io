@@ -1,6 +1,6 @@
 ---
 title: Strengthening Partnership in Health and Nutrition
-excerpt: Olaf Perdijk University Board of Future Foods Utrecht to advance research and education in health, nutrition, and immune homeostasis.
+excerpt: Olaf Perdijk joint the University Board of Future Foods Utrecht to advance research and education in health, nutrition, and immune homeostasis.
 thumbnail: /assets/images/01052026.jpg
 author: Lab Bot
 ---
